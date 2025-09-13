@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             renderCards(eventsDataToday, 'divRowsCurrentEvents');
             renderCards(eventsDataNext.slice(0, 5), 'divRowsNextEvents', true);
-            renderChannels(channelsData);
+            //renderChannels(channelsData);
 
             const date = new Date();
             const options = { day: '2-digit', month: 'long', year: 'numeric' };
